@@ -1,0 +1,27 @@
+{
+	"recipes": [
+	{
+      "id": "test-jul9-3",
+      "description" : "Chatbot Application example with LLM enabled chat applications",
+      "name" : "Test Application",
+      "repository": "https://github.com/testjc1/test-jul9-3",
+      "icon": "natural-language-processing",
+      "categories": [
+        "local-development"
+      ],
+      "readme": "# Local Deploy",
+      "models": [
+        "hf.instructlab.granite-7b-lab-GGUF",
+        "hf.instructlab.merlinite-7b-lab-GGUF"
+      ]
+    }
+	],
+  "models": [],
+  "categories": [
+    {
+        "id": "local-development",
+        "name": "Local Development",
+        "description" : "Applications currently in development."
+      }
+  ]
+}
